@@ -1,4 +1,3 @@
-'use strict';
 module.exports = (sequelize, DataTypes) => {
   var Posts = sequelize.define('Posts', {
     post: DataTypes.TEXT,
